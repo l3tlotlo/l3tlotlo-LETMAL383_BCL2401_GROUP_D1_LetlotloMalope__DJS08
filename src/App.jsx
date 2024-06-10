@@ -7,6 +7,11 @@ function App() {
     <h1>Hello, React Router!</h1>
   )
 }
+function About() {
+  return (
+    <h1>About page goes here! 🎉</h1>
+  )
+}
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
